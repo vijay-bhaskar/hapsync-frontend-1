@@ -1,0 +1,20 @@
+[
+	{
+		"activityTypeId": 4,
+		"activityTypeName": "drinks",
+		"activityTypeDescription": "drinks",
+		"cost": 10
+	},
+	{
+		"activityTypeId": 1,
+		"activityTypeName": "food",
+		"activityTypeDescription": "food",
+		"cost": 50
+	},
+	{
+		"activityTypeId": 2,
+		"activityTypeName": "decorations",
+		"activityTypeDescription": "decorations",
+		"cost": 10
+	}
+]

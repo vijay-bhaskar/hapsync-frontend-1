@@ -1,0 +1,26 @@
+{
+	"name": "dsdf",
+	"eventTypeId": 2,
+	"userId": 1,
+	"date": "2021-05-26T04:00:00.000Z",
+	"location": "ere",
+	"createdDate": "2021-05-16T03:13:12.884Z",
+	"owner": "1",
+	"budget": "20",
+	"activities": [
+		{
+			"activityTypeId": 4,
+			"cost": 10,
+			"createdDate": "2021-05-16T03:12:55.850Z",
+			"owner": 1,
+			"dueDate": "2021-05-16T03:12:55.850Z"
+		},
+		{
+			"activityTypeId": 2,
+			"cost": 10,
+			"createdDate": "2021-05-16T03:12:55.850Z",
+			"owner": 1,
+			"dueDate": "2021-05-16T03:12:55.850Z"
+		}
+	]
+}

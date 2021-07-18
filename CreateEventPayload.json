@@ -1,0 +1,77 @@
+{
+	"name": "abcdefg",
+	"eventTypeId": 2,
+	"userId": 1,
+	"date": "2021-05-26T04:00:00.000Z",
+	"location": "ere",
+	"createdDate": "2021-05-16T03:13:12.884Z",
+	"owner": "1",
+	"budget": "20",
+	"activities": [
+		{
+			"activityType": {
+                "id": 4
+            },
+			"cost": 10,
+			"createdDate": "2021-05-16T03:12:55.850Z",
+			"owner": 1,
+			"dueDate": "2021-05-16T03:12:55.850Z"
+		},
+		{
+			"activityType": {
+                "id": 2
+            },
+			"cost": 10,
+			"createdDate": "2021-05-16T03:12:55.850Z",
+			"owner": 1,
+			"dueDate": "2021-05-16T03:12:55.850Z"
+		}
+	],
+	"invitees": [
+		{
+            "user": {
+                "id": 2,
+			    "phone": "1245",
+                "name": "abc"
+            },
+            "response": "PENDING"
+			
+		},
+		{
+            "user": {
+                "id": -1,
+			    "phone": "2345",
+                "name": "test2"
+            },
+            "response": "PENDING"
+		}
+	],
+	"locations": [
+		{
+			"name": "site A",
+			"preference": 1,
+            "vote": false
+		},
+		{
+			"name": "site B",
+			"preference": 2,
+            "vote": false
+		}
+	],
+	"timings": [
+		{
+			"slot": "2021-05-16",
+            "startTime": "18:00",
+            "endTime": "19:00",
+			"preference": 1,
+            "vote": false
+		},
+		{
+            "slot": "2021-05-16",
+            "startTime": "18:00",
+            "endTime": "19:00",
+			"preference": 2,
+            "vote": false
+		}
+	]
+}

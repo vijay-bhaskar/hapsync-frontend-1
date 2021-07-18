@@ -1,0 +1,106 @@
+{
+    "id": 1,
+    "eventTypeId": 2,
+    "description": null,
+    "userId": 0,
+    "personCount": 0,
+    "name": "abcdefg",
+    "owner": 1,
+    "status": 1,
+    "budget": 20,
+    "date": "2021-05-26T04:00:00.000+00:00",
+    "createdDate": "2021-05-16T03:13:12.884+00:00",
+    "updatedDate": null,
+    "activities": [
+        {
+            "id": 1,
+            "name": "Send Invitations",
+            "description": "Send Invitations",
+            "timeline": 14,
+            "cost": 0,
+            "byDefault": true,
+            "vendorRequired": false
+        },
+        {
+            "id": 2,
+            "name": "Purchase Items",
+            "description": "Purchase Items",
+            "timeline": 14,
+            "cost": 0,
+            "byDefault": false,
+            "vendorRequired": true
+        }
+    ],
+    "invitees": [
+        {
+            "id": 1,
+            "name": "abc",
+            "phone": "1245",
+            "email": "b@b.com",
+            "response": "PENDING"
+        },
+        {
+            "id": 2,
+            "name": "test2",
+            "phone": "2345",
+            "email": null,
+            "response": "PENDING"
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "name": "site A",
+            "polling": [
+                {
+                    "id": 1,
+                    "userId": 1,
+                    "userName": "test",
+                    "vote": false
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "site B",
+            "polling": [
+                {
+                    "id": 2,
+                    "userId": 1,
+                    "userName": "test",
+                    "vote": false
+                }
+            ]
+        }
+    ],
+    "timings": [
+        {
+            "id": 1,
+            "slot": "2021-05-16",
+            "startTime": "18:00:00",
+            "endtime": "19:00:00",
+            "polling": [
+                {
+                    "id": 1,
+                    "userId": 1,
+                    "userName": "test",
+                    "vote": false
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "slot": "2021-05-16",
+            "startTime": "18:00:00",
+            "endtime": "19:00:00",
+            "polling": [
+                {
+                    "id": 2,
+                    "userId": 1,
+                    "userName": "test",
+                    "vote": false
+                }
+            ]
+        }
+    ]
+}

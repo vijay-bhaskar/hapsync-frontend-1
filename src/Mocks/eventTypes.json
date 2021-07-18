@@ -1,0 +1,32 @@
+[
+	{
+		"eventTypeId": 1,
+		"eventTypeName": "Birthday",
+		"eventTypeDescription": "Birthday Celebration"
+	},
+	{
+		"eventTypeId": 2,
+		"eventTypeName": "Graduation",
+		"eventTypeDescription": "Degree Graduation"
+	},
+	{
+		"eventTypeId": 3,
+		"eventTypeName": "Office",
+		"eventTypeDescription": "Office Event"
+	},
+	{
+		"eventTypeId": 4,
+		"eventTypeName": "Arangetram",
+		"eventTypeDescription": "Arangetram"
+	},
+	{
+		"eventTypeId": 5,
+		"eventTypeName": "Anniversary",
+		"eventTypeDescription": "Anniversary Celebration"
+	},
+	{
+		"eventTypeId": 6,
+		"eventTypeName": "Adhoc",
+		"eventTypeDescription": "Adhoc Event"
+	}
+]
